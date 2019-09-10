@@ -2,11 +2,10 @@
 
 ## Installation
 
-Install the npm packages and run tests as follows:
+Install the npm packages as follows:
 
 ```
 npm install
-npm test
 ```
 
 ## Contract Build
@@ -15,6 +14,14 @@ Simply run the compile script like so:
 
 ```
 node ethereum/compile.js
+```
+
+## Contract Test
+
+Simply run the tests like so:
+
+```
+npm test
 ```
 
 ## Contract Deployment
